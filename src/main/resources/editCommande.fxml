@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.EditCommandeController">
+    <children>
+        <AnchorPane layoutX="269.0" layoutY="1.0" prefHeight="400.0" prefWidth="330.0" style="-fx-background-color: #2a0d5b;">
+            <children>
+                <ComboBox fx:id="cbIdProduit" layoutX="91.0" layoutY="168.0" prefWidth="150.0" promptText="ID Produit" />
+                <TextField fx:id="tfDateCommande" layoutX="91.0" layoutY="217.0" promptText="Date Commande" />
+                <TextField fx:id="tfMontantTotal" layoutX="91.0" layoutY="259.0" promptText="Montant Total" />
+                <TextField fx:id="tfModePaiement" layoutX="91.0" layoutY="309.0" promptText="Mode de Paiement" />
+                <TextField fx:id="tfAdresseLivraison" layoutX="91.0" layoutY="359.0" promptText="Adresse de Livraison" />
+                <Button layoutX="151.0" layoutY="433.0" mnemonicParsing="false" onAction="#updateBtn" text="Update" textFill="#7c6666" />
+                <Label layoutX="91.0" layoutY="56.0" prefHeight="17.0" prefWidth="149.0" text="Edit Commande" textFill="WHITE">
+                    <font>
+                        <Font name="System Italic" size="20.0" />
+                    </font>
+                </Label>
+            </children>
+        </AnchorPane>
+        <AnchorPane prefHeight="459.0" prefWidth="269.0" style="-fx-background-color: #d01107;">
+            <children>
+                <Button layoutX="104.0" layoutY="212.0" mnemonicParsing="false" onAction="#afficherBtn" text="Afficher" textFill="#04010a" />
+            </children>
+        </AnchorPane>
+    </children>
+</AnchorPane>
