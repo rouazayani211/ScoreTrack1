@@ -1,0 +1,28 @@
+ID: 30
+Nom: ronaldinho
+prenom: 12
+numero: 12
+position: 12
+id_equipe: 17
+
+ID: 35
+Nom: messi
+prenom: k
+numero: 75
+position: k
+id_equipe: 17
+
+ID: 36
+Nom: maradona
+prenom: messi
+numero: 10
+position: st
+id_equipe: 17
+
+ID: 41
+Nom: mbappe
+prenom: mbappe
+numero: 10
+position: st
+id_equipe: 17
+

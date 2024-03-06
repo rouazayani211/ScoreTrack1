@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.AjouterJoueurController">
+   <children>
+      <AnchorPane layoutY="1.0" prefHeight="400.0" prefWidth="600.0">
+         <children>
+            <AnchorPane layoutX="155.0" layoutY="-7.0" prefHeight="407.0" prefWidth="482.0" style="-fx-background-color: #03224c;">
+               <children>
+                  <TextField fx:id="nomj" layoutX="282.0" layoutY="68.0" promptText="nom" />
+                  <TextField fx:id="prenomj" layoutX="282.0" layoutY="106.0" promptText="prenom" />   <TextField fx:id="agej" layoutX="282.0" layoutY="141.0" promptText="age" />
+                  <TextField fx:id="numeroj" layoutX="282.0" layoutY="178.0" promptText="numero" />
+                  <TextField fx:id="positionj" layoutX="282.0" layoutY="215.0" promptText="position" />
+                  <TextField fx:id="id_j_eq" layoutX="282.0" layoutY="254.0" promptText="id_equipe" />
+                  <Text fill="WHITE" layoutX="206.0" layoutY="195.0" strokeType="OUTSIDE" strokeWidth="0.0" text="numero" />
+                  <Text fill="WHITE" layoutX="217.0" layoutY="158.0" strokeType="OUTSIDE" strokeWidth="0.0" text="age" />
+                  <Text fill="WHITE" layoutX="211.0" layoutY="85.0" strokeType="OUTSIDE" strokeWidth="0.0" text="nom" />
+                  <Text fill="WHITE" layoutX="203.0" layoutY="123.0" strokeType="OUTSIDE" strokeWidth="0.0" text="prenom" />
+                  <Text fill="WHITE" layoutX="205.0" layoutY="232.0" strokeType="OUTSIDE" strokeWidth="0.0" text="position" />
+                  <Text fill="WHITE" layoutX="201.0" layoutY="271.0" strokeType="OUTSIDE" strokeWidth="0.0" text="id_equipe" />
+                  <Button layoutX="357.0" layoutY="297.0" mnemonicParsing="false" onAction="#afficherjbtn" styleClass="OnAjouter" stylesheets="@style.css" text="afficher" textFill="WHITE" />
+                  <Button fx:id="ajouter_button_j" layoutX="282.0" layoutY="297.0" mnemonicParsing="false" onAction="#ajouterj" styleClass="OnAjouter" stylesheets="@style.css" text="ajouter" textFill="WHITE" />
+                  <Text fill="WHITE" layoutX="316.0" layoutY="37.0" strokeType="OUTSIDE" strokeWidth="0.0" text="AJOUTER JOUEUR" />
+               </children></AnchorPane>
+            <AnchorPane layoutX="-26.0" layoutY="-7.0" prefHeight="407.0" prefWidth="182.0" style="-fx-background-color: #9E0E40;" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

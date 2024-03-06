@@ -1,0 +1,42 @@
+ID: 9
+Nom: psg
+Region: francef
+Ligue: ligue 1
+Classement: 15
+
+ID: 11
+Nom: chelsea
+Region: italiefdf
+Ligue: ligue 1
+Classement: 10
+
+ID: 17
+Nom: liverpool
+Region: bn
+Ligue: hh
+Classement: 20
+
+ID: 28
+Nom: speed
+Region: esp
+Ligue: liga
+Classement: 10
+
+ID: 34
+Nom: arsenal
+Region: englan
+Ligue: pl
+Classement: 2
+
+ID: 35
+Nom: Borussia Dortmund
+Region: tunisie
+Ligue: ligue1
+Classement: 2
+
+ID: 37
+Nom: al nasr
+Region: j
+Ligue: j
+Classement: 8
+

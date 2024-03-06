@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.ShowJoueur1Controller">
+    <AnchorPane layoutX="-26.0" prefHeight="400.0" prefWidth="181.0" style="-fx-background-color: #9E0E40;">
+      <children>
+         <ImageView fitHeight="200.0" fitWidth="200.0" layoutX="1.0" layoutY="-14.0">
+            <image>
+               <Image url="@images/logo.png" />
+            </image>
+         </ImageView>
+         <TextField fx:id="search" layoutX="34.0" layoutY="232.0" prefHeight="26.0" prefWidth="58.0" promptText="search" />
+         <Button layoutX="104.0" layoutY="232.0" mnemonicParsing="false" onAction="#OnRechercher" styleClass="OnAjouter" stylesheets="@style.css" text="search" textFill="WHITE" />
+      </children></AnchorPane>
+    <Text fill="WHITE" layoutX="21.0" layoutY="177.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SCORETRACK">
+        <font>
+            <Font name="ACaslonPro-Regular" size="16.0" />
+        </font>
+    </Text>
+    <AnchorPane layoutX="155.0" layoutY="-7.0" prefHeight="407.0" prefWidth="482.0" style="-fx-background-color: #03224c;">
+        <children>
+         <Button layoutX="22.0" layoutY="16.0" mnemonicParsing="false" onAction="#equipePage" styleClass="equipePage" stylesheets="@style.css" text="Equipe" textFill="WHITE" />
+            <AnchorPane layoutX="16.0" layoutY="50.0" prefHeight="342.0" prefWidth="440.0" style="-fx-background-color: c4c4c4;" />
+         <Text fill="WHITE" layoutX="213.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Liste Des Joueurs" />
+         <Button layoutX="84.0" layoutY="17.0" mnemonicParsing="false" onAction="#Ontrier" styleClass="OnAjouter" stylesheets="@style.css" text="trier age" textFill="WHITE" />
+         <Button layoutX="150.0" layoutY="18.0" mnemonicParsing="false" onAction="#OnNotes" styleClass="OnAjouter" stylesheets="@style.css" text="notes" textFill="WHITE" />
+        </children></AnchorPane>
+    <FlowPane fx:id="joueur1Container" hgap="20" layoutX="176.0" layoutY="50.0" prefHeight="0.0" prefWidth="433.0" vgap="20">
+    </FlowPane>
+   
+    <Button layoutX="534.0" layoutY="10.0" mnemonicParsing="false" onAction="#OnRefresh" styleClass="OnAjouter" stylesheets="@style.css" text="Refresh" textFill="WHITE" />
+    <Button layoutX="472.0" layoutY="10.0" mnemonicParsing="false" onAction="#OnAjouter" styleClass="equipePage" stylesheets="@style.css" text="Ajouter" textFill="WHITE" />
+   <Button layoutX="82.0" layoutY="269.0" mnemonicParsing="false" onAction="#OnPDF" styleClass="OnAjouter" stylesheets="@style.css" text="PDF" textFill="WHITE" />
+   <Button layoutX="79.0" layoutY="305.0" mnemonicParsing="false" onAction="#stats" styleClass="OnAjouter" stylesheets="@style.css" text="stats" textFill="WHITE" />
+</AnchorPane>

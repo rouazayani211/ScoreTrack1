@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="controllers.StatsJ"
+            prefHeight="400.0" prefWidth="600.0">
+
+    <BarChart fx:id="barChart" layoutX="29.0" layoutY="45.0" prefHeight="309.0" prefWidth="536.0">
+        <xAxis>
+            <CategoryAxis fx:id="xAxis" side="BOTTOM" />
+        </xAxis>
+        <yAxis>
+            <NumberAxis fx:id="yAxis" side="LEFT" />
+        </yAxis>
+    </BarChart>
+    <Button text="Back" onAction="#goBack" layoutX="10.0" layoutY="10.0" />
+
+</AnchorPane>
