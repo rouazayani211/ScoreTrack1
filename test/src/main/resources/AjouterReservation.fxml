@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.AjouterReservationController">
+   <children>
+      <Label layoutX="70.0" layoutY="94.0" text="IdUser:" />
+      <Label layoutX="70.0" layoutY="145.0" text="DateReservation:" />
+      <Label layoutX="70.0" layoutY="202.0" text="Nombre de Ticket:" />
+      <Label layoutX="70.0" layoutY="266.0" text="Statut de Reservation:" />
+      <TextField fx:id="tfiduser" layoutX="313.0" layoutY="90.0" />
+      <TextField fx:id="tfdater" layoutX="313.0" layoutY="141.0" />
+      <TextField fx:id="tfnbrt" layoutX="313.0" layoutY="197.0" />
+      <TextField fx:id="tfst" layoutX="313.0" layoutY="262.0" />
+      <Button layoutX="80.0" layoutY="318.0" mnemonicParsing="false" onAction="#ajouerReservation" prefHeight="26.0" prefWidth="158.0" text="Ajouter" />
+   </children>
+</AnchorPane>
